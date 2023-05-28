@@ -14,10 +14,6 @@ const images = [
 ];
 
 const mainList = document.querySelector(".gallery");
-mainList.insertAdjacentHTML(
-  "beforebegin",
-  "не знал как это использовать, потому тыкнул как пример"
-);
 
 images.map((image) => {
   const listEl = document.createElement("li");
